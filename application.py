@@ -1,4 +1,3 @@
-print("Hello World")
-
-wt = 200
-print("Hellow " + str(wt) + " World!!")
+sent = "this is a sentence"
+print(sent[-1])
+print(sent[len(sent)-1])
