@@ -8,8 +8,10 @@
 """
 # Your Code Below:
 
+def separate(str):
+    return list(str)
 
-
+print(separate("Hello World"))
 
 
 

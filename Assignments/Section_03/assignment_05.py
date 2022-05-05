@@ -15,10 +15,11 @@ Example:
 
 # Your Code Below:
 
+def key_list_items(str,**kwargs):
+    return kwargs.get(str)[-2]
 
 
-
-
+print(key_list_items("people", things=['book', 'tv'], people=['pete', 'mike', 'jan', 'tom']))
 
 
 

@@ -11,8 +11,10 @@ argument as individual elements in the list.
 """
 # Your Code Below:
 
+def multi_merge(list1,str1):
+    return list1 + list(str1)
 
-
+print(multi_merge(["hello","world","from"],"Ahtesham"))
 
 
 

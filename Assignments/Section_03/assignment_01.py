@@ -8,6 +8,16 @@
 # your code below:
 
 
+def merge_lists(list1,list2):
+    """
+
+    :param list1: list 1 input
+    :param list2: list 2 input
+    :return: returns the merged listy for list1 and list2
+    """
+    return list1+list2
+
+print(merge_lists([1,2,3,4],[5,6,7,8,9]))
 
 
 

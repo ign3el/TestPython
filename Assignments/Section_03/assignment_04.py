@@ -15,8 +15,10 @@ Example:
 # Your code below:
 
 
+def last_List(*args):
+    return args[-1]
 
-
+print(last_List([1,2,3,4,5], ['a', 'b', 'c'], ['mike', 'john'],["ahtesham", "Shams"]))
 
 
 
